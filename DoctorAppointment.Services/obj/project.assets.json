@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "DoctorAppointment.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DoctorAppointment.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoctorAppointment.Entities.dll": {}
+        }
+      },
+      "DoctorAppointment.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DoctorAppointment.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DoctorAppointment.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoctorAppointment.Entities/1.0.0": {
+      "type": "project",
+      "path": "../DoctorAppointment.Entities/DoctorAppointment.Entities.csproj",
+      "msbuildProject": "../DoctorAppointment.Entities/DoctorAppointment.Entities.csproj"
+    },
+    "DoctorAppointment.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DoctorAppointment.Infrastructure/DoctorAppointment.Infrastructure.csproj",
+      "msbuildProject": "../DoctorAppointment.Infrastructure/DoctorAppointment.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "DoctorAppointment.Entities >= 1.0.0",
+      "DoctorAppointment.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\taav\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\taav\\Downloads\\Compressed\\DoctorAppointment\\DoctorAppointment.Services\\DoctorAppointment.Services.csproj",
+      "projectName": "DoctorAppointment.Services",
+      "projectPath": "C:\\Users\\taav\\Downloads\\Compressed\\DoctorAppointment\\DoctorAppointment.Services\\DoctorAppointment.Services.csproj",
+      "packagesPath": "C:\\Users\\taav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\taav\\Downloads\\Compressed\\DoctorAppointment\\DoctorAppointment.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\taav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\taav\\Downloads\\Compressed\\DoctorAppointment\\DoctorAppointment.Entities\\DoctorAppointment.Entities.csproj": {
+              "projectPath": "C:\\Users\\taav\\Downloads\\Compressed\\DoctorAppointment\\DoctorAppointment.Entities\\DoctorAppointment.Entities.csproj"
+            },
+            "C:\\Users\\taav\\Downloads\\Compressed\\DoctorAppointment\\DoctorAppointment.Infrastructure\\DoctorAppointment.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\taav\\Downloads\\Compressed\\DoctorAppointment\\DoctorAppointment.Infrastructure\\DoctorAppointment.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
